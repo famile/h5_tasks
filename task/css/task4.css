@@ -155,6 +155,7 @@ input,button,a {
     height: 3rem;
     font-size: 1.1rem;
     /*font-family: SimHei;*/
+    border-width: 0;
     color: #ffffff;
     background-color: #5fc0cd;
 }

@@ -36,7 +36,7 @@
                     <img class="phone-line" src="../img/task4_line.png">
                 </div>
                 <div class="phone-input-block">
-                    <input class="phone-input" type="text" placeholder="请输入手机号">
+                    <input class="phone-input" type="text" placeholder="请输入手机号" onkeyup="value=value.replace(/[^\d]/g,'')"  maxlength="11"/>
                 </div>
             </div>
 
@@ -50,7 +50,7 @@
                     <img class="phone-line" src="../img/task4_line.png">
                 </div>
                 <div class="phone-input-block">
-                    <input class="pass-input" type="password" placeholder="请输入密码">
+                    <input class="pass-input" type="password" placeholder="请输入密码" maxlength="20">
                 </div>
             </div>
         </div>
