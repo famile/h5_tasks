@@ -11,6 +11,7 @@
           content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <title>task4</title>
     <link rel="stylesheet" type="text/css" href="../css/task4.css">
+    <script type="text/javascript" src="../js/task4.js"></script>
 </head>
 <body>
 <div>
@@ -41,7 +42,7 @@
                     <img class="phone-line" src="../img/task4_line.png">
                 </div>
                 <div class="phone-input-block">
-                    <input class="phone-input" type="text" placeholder="请输入手机号" onkeyup="(this.v=function(){this.value=this.value.replace(/[^0-9-]+/,'');}).call(this)" onblur="this.v();"   maxlength="11"/>
+                    <input class="phone-input" type="text" placeholder="请输入手机号" onkeyup="chekNum(this)" maxlength="11"/>
                 </div>
             </div>
 
