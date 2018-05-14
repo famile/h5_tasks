@@ -36,7 +36,7 @@
                     <img class="phone-line" src="../img/task4_line.png">
                 </div>
                 <div class="phone-input-block">
-                    <input class="phone-input" type="text" placeholder="请输入手机号" onkeyup="value=value.replace(/[^\d]/g,'')"  maxlength="11"/>
+                    <input class="phone-input" type="text" placeholder="请输入手机号" onkeyup="(this.v=function(){this.value=this.value.replace(/[^0-9-]+/,'');}).call(this)" onblur="this.v();"   maxlength="11"/>
                 </div>
             </div>
 
