@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-color: #eff0f4;*/
+    font-family:  "微软雅黑"  , "SimHei", "Sans-serif", "Microsoft Yahei";
+}
+
+input,button,a {
+    outline:0 none !important; blr:expression(this.onFocus=this.blur());
+}
+
+.container-block{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #5fc0cd;
+}
+
+.header-title{
+    /*display: inline;*/
+    /*width: 100%;*/
+    margin-left: 4.2rem;
+    margin-right: 4.2rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    /*position: absolute;*/
+}
+
+.header-left-block{
+    /*display: inline;*/
+    width: 2.8rem;
+    height: 2.5rem;
+    float: left;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.header-left-img{
+    /*display: inline-block;*/
+    width: 0.7rem;
+    height: 1.05rem;
+
+}
+
+.footer{
+    width: 100%;
+    height: 5.1rem;
+    position: fixed;
+    /*margin-bottom: 0;*/
+    bottom: 0;
+}
